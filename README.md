@@ -20,4 +20,4 @@
 
 ### 🪪 License
 Licensed under the [MIT License](LICENSE.md)  
-© 2025 Matthew
+© 2025 mxnt
