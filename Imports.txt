@@ -2,3 +2,4 @@
 2. psutil
 3. gputil
 4. flask
+5. ollama

@@ -1,7 +1,9 @@
-import psycopg
-import os
+# import ollama
+import ollama
 
-def getollamamodel():
-    models = {
-        
-    }
+'''
+get ollama to list all available model son host machine
+ and store data inside a variable
+'''
+
+ollamalist = ollama.list()
