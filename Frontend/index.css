@@ -29,3 +29,28 @@
   justify-content: center; 
   height: 70vh; 
 }
+
+.blocks {
+  right: 0;
+  position: fixed;
+  padding: 1.5rem;
+  bottom: 0;
+  display: block;
+
+.block3text {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: x-large;
+}
+
+.block3button {
+  border-radius: 0.9rem;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-color: black;
+  border-width: 0.2rem;
+  background-color: white; 
+} 
