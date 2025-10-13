@@ -1,6 +1,9 @@
 # vynUI
 
-### ⚠️ vynUI is still in development. if you want to support us on our journey, check out Miro and Trello
+### ⚠️ vynUI is still in development. 
+if you want to support us on our journey, check out Miro and Trello
+
+---
 
 **vynUI** is a **self-hosted** minimalist web interface that connects to your **Ollama API** from any device on your network.
 
