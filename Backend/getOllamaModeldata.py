@@ -2,8 +2,10 @@
 import ollama
 
 '''
-get ollama to list all available model son host machine
- and store data inside a variable
+get ollama to list all available model son host machine inside a function and
+return the list in another file
 '''
 
-ollamalist = ollama.list()
+def ollamalist():
+    return ollama.list()
+

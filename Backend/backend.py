@@ -1,14 +1,18 @@
-from flask import Flask, render_template, request
+from flask import Flask, send_from_directory
+from getOllamaModeldata import ollamalist
+from collectHostData import boot_time, cpu_info, system_info, memory_info, get_size, disk_info, network_info, get_host_data
 
-vynUI = Flask(__name__)
+vynUI = Flask(__name__, static_folder='Frontend/static')
 
-@vynUI.route('/', methods=['GET'])
+# Serve index.html
+@vynUI.route('/')
 def index():
-    return render_template('index.html')
+    return send_from_directory('Frontend', 'index.html')
 
-@vynUI.route('/post', methods=['POST'])
-def post():
-    return "recived: {}".format(request.form)
+# Serve other frontend files (like CSS)
+@vynUI.route('/<path:path>')
+def serve_file(path):
+    return send_from_directory('Frontend', path)
 
 if __name__ == "__main__":
     vynUI.run(debug=True)
