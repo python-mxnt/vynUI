@@ -114,3 +114,14 @@ for interface_name, interface_addresses in if_addrs.items():
 net_io = psutil.net_io_counters()
 print(f"Total Bytes Sent: {get_size(net_io.bytes_sent)}")
 print(f"Total Bytes Received: {get_size(net_io.bytes_recv)}")
+
+
+def get_host_data():
+    data = {
+        "cpu_usage": psutil.cpu_percent(interval=1),
+        "memory_usage": psutil.virtual_memory().percent,
+        "disk_usage": psutil.disk_usage('/').percent,
+        "network_sent": psutil.net_io_counters().bytes_sent,
+        "network_recv": psutil.net_io_counters().bytes_recv
+    }
+    return data
