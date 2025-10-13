@@ -1,6 +1,8 @@
 # vynUI
 
-**vynUI** is a minimalist web interface that connects to your **Ollama API** from any device on your network.
+### ⚠️ vynUI is still in development. if you want to support us on our journey, check out Miro and Trello
+
+**vynUI** is a **self-hosted** minimalist web interface that connects to your **Ollama API** from any device on your network.
 
 ---
 
@@ -13,11 +15,11 @@
 
 ### ⚙️ Usage
 1. Run **Ollama** on your host machine  
-2. Open **vynUI** on any device  
+2. Self-host **vynUI** on any device  
 3. Enter the host IP (e.g., `192.168.x.x`) to connect  
 
 ---
 
-### 🪪 License
+### License
 Licensed under the [MIT License](LICENSE.md)  
-© 2025 mxnt
+© 2025 lunar productions
