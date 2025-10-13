@@ -25,4 +25,4 @@ if you want to support us on our journey, check out [Miro](https://miro.com/app/
 
 ### License
 Licensed under the [MIT License](LICENSE.md)  
-© 2025 lunar productions
+© 2025 Lunar Productions
