@@ -47,10 +47,42 @@
 
 .block3button {
   border-radius: 0.9rem;
-  padding: 2rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding: 1rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
   border-color: black;
   border-width: 0.2rem;
+  border: 2px solid black;
   background-color: white; 
 } }
+
+.block3button:hover {
+  background-color: black; 
+  color: white;
+  cursor: pointer;
+}
+
+.modelSelector {
+
+}
+
+.modelSelect {
+  font-family: "Space Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-color: white;
+  color: black;
+  background-color: white;
+  right: 0;
+  margin-right: 16.9rem;
+  position: absolute;
+  top: 0;
+  margin-top: 30rem;
+  border: 2px solid white;
+
+  
+
+}

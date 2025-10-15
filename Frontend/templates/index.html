@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">#
-    <link rel="stylesheet" href="index.css"/>
-    <script src="static/index.js"></script>
+    <link rel="stylesheet" href="/Frontend/static/index.css"/>
+    <script src="../static/index.js"></script>
     <title>vynUI</title>
 </head>
 <body>
     <div class="mainmiddle">
-
+<!-- greeting -->
     <div class="greeting">
      <h2>vynUI</h2>
     </div>
-    
+    <!-- send message to ollama model -->
      <input type="text" placeholder="Ask a question..." class="ollamauserinput"></input>
 
     </div>
+<!-- Model Selector (obvious) -->
+     <div class="modelSelector">
+        <div class="modeldropdown">
+            <select id="modelSelect" class="modelSelect">
+                <option value="" disabled selected>Select a model</option>
+            </select>
+        </div>
+    </div>
+<!-- info blocks -->
      <div class="blocks">
         <div class="block1">
 
