@@ -2,6 +2,7 @@
 
 ### ⚠️ vynUI is still in development. 
 if you want to support us on our journey, check out [Miro](https://miro.com/app/board/uXjVJ7OeXkk=/?share_link_id=892158054911) and [Trello](https://trello.com/invite/b/68ebc81134885dadd979a9aa/ATTI2d2c4fe8aa99a17fe9f12413d53fd2c0EA82AA47/vynui)
+**(and check [Wiki](https://github.com/python-mxnt/vynUI/wiki) for more information)**
 
 ---
 
