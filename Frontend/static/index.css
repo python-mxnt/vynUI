@@ -86,3 +86,58 @@
   
 
 }
+
+  .apiconnect-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+    z-index: 9999;
+  }
+
+  .closeapiconnect-popupbutton {
+    font-size: 25px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    width: 40px;
+
+    ;
+  }
+
+
+
+  .apiconnect-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .apiconnect {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+    right: 0;
+    margin-right: 2rem;
+    top: 0;
+    margin-top: 2rem;
+    position: absolute;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 0.6rem;
+  }
+  .apiconnect:hover {
+    background-color: black; 
+    color: white;
+    cursor: pointer;
+  }

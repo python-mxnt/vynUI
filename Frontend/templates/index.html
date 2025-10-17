@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">#
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="/Frontend/static/index.css"/>
     <script src="../static/index.js"></script>
     <title>vynUI</title>
@@ -25,6 +26,8 @@
             </select>
         </div>
     </div>
+  <button class="apiconnect open-popup" type="button"><b><p><span>Connect API</span></p></b></button>
+
 <!-- info blocks -->
      <div class="blocks">
         <div class="block1">
@@ -35,15 +38,35 @@
 
         </div>
 
-        <div class="block3">
-           <button onclick="viewusage" class="block3button">
-            <h3 class="block3text">View Usage</h3>
-           </button>
-        </div>
+      <div class="block3">
+        <button id="block3button" class="block3button" type="button">
+        <h3 class="block3text">View Usage</h3>
+        </button>
+      </div>
 
     </div>
 
 
+    </div>
+<!-- connect api button and functions -->
+    <div class="apiconnect-container" style="display:none;">
+        <script>
+            // use delegated handlers so the button can be added after script runs
+            $(document).on('click', '.open-popup', function(){
+                $('.apiconnect-container').show();
+            });
+
+            $(document).on('click', '.closeapiconnect-popupbutton', function(){
+                $('.apiconnect-container').hide();
+            });
+        </script>
+
+        <div class="closeapiconnect-popup"><button class="closeapiconnect-popupbutton">X</button></div>
+        <div class="apiconnect-content">
+            <div class="apiconnect-inner">
+                { Popup Content Goes Here }
+            </div>
+        </div>
     </div>
 
    
