@@ -33,26 +33,26 @@
 .blocks {
   right: 0;
   position: fixed;
-  padding: 1.5rem;
+  padding: 1.5vw;
   bottom: 0;
   display: block;
-
+  
 .block3text {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: x-large;
+  font-size: 1.85vw;
 }
 
 .block3button {
-  border-radius: 0.9rem;
-  padding: 1rem;
-  padding-bottom: 0.2rem;
-  padding-top: 0.2rem;
+  border-radius: 3vh;
+  padding: 1vw;
+  padding-bottom: 0.2vh;
+  padding-top: 0.2vh;
   border-color: black;
   border-width: 0.2rem;
-  border: 2px solid black;
+  border: 0.5vh solid black;
   background-color: white; 
 } }
 
@@ -65,26 +65,28 @@
 /* .modelSelector {
 
 } */
-
+ 
+.modeldropdown {
+  position: fixed;
+  display: inline-block;
+}
 .modelSelect {
+  appearance: none;
+  background-color: transparent;
   font-family: "Space Mono", monospace;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1.6vw;
   margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
-  border-color: white;
+  padding: 0.5vh 1vw;
+  border: 0px solid white;
   color: black;
-  background-color: white;
-  right: 0;
+  right: 20vw;
   margin-right: 16.9rem;
-  position: absolute;
-  top: 0;
-  margin-top: 30rem;
-  border: 2px solid white;
-
-  
-
+  position:fixed;
+  bottom: 1vw;
+  margin-top: 0;
+  margin-right: 0;
 }
 
   .apiconnect-container {
@@ -120,21 +122,27 @@
     background-color: white;
     border-radius: 10px;
   }
-
+  .connectapi-button-contiainer {
+    
+    right: 0;
+    position: fixed;
+    padding: 1.5vw;
+    top: 0;
+    display: block;
+  }
   .apiconnect {
+    padding: 1vw;
+    padding-bottom: 0.2vh;
+    padding-top: 0.2vh;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-size: large;
-    right: 0;
-    margin-right: 2rem;
-    top: 0;
-    margin-top: 2rem;
-    position: absolute;
-    border: 2px solid black;
+    border: 0.5vh solid black;
     background-color: white;
-    border-radius: 0.6rem;
+    border-radius: 3vh;
+    font-size: 1.85vw;
   }
   .apiconnect:hover {
     background-color: black; 
