@@ -107,12 +107,13 @@
     right: 15px;
     cursor: pointer;
     width: 40px;
-    border: 2px solid white;
-    background-color: white;
+    border: 2px solid transparent;
+    background-color: transparent;
     padding: 1vh;
-    padding-right: 3vh;
+    padding-right: 5vh;
+    padding-top: 2vh
   }
-
+  
 
 
   .apiconnect-content {
@@ -153,4 +154,20 @@
     background-color: black; 
     color: white;
     cursor: pointer;
+  }
+
+  .ollamaapiinput {
+    font-family: "Space Mono", monospace;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 17vh;
+    margin-left: 8vh;
+    font-size: large;
+    border-radius: 1vh;
+  }
+
+  .ollamaapiinputEnter {
+    width: 2.5rem;
+    
   }
