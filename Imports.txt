@@ -1,5 +1,0 @@
-1. postgresQL
-2. psutil
-3. GPUtil
-4. flask
-5. ollama

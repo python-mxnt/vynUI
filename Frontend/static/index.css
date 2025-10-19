@@ -1,33 +1,32 @@
 /* Importing Rubik font */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 /* Importing space Mono font */
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .greeting {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: xx-large;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: xx-large;
 }
 
 .ollamauserinput {
-    font-family: "Space Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-    border-radius: 2rem;
-    font-size: 1.3rem;
-    margin-top: 0.5rem;
-    padding: 0.5rem 1rem;
-    display: block;
-
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  display: block;
 }
 .mainmiddle {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: center; 
-  height: 70vh; 
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
 }
 
 .blocks {
@@ -36,28 +35,29 @@
   padding: 1.5vw;
   bottom: 0;
   display: block;
-  
-.block3text {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1.85vw;
+
+  .block3text {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.85vw;
+  }
+
+  .block3button {
+    border-radius: 3vh;
+    padding: 1vw;
+    padding-bottom: 0.2vh;
+    padding-top: 0.2vh;
+    border-color: black;
+    border-width: 0.2rem;
+    border: 0.5vh solid black;
+    background-color: white;
+  }
 }
 
-.block3button {
-  border-radius: 3vh;
-  padding: 1vw;
-  padding-bottom: 0.2vh;
-  padding-top: 0.2vh;
-  border-color: black;
-  border-width: 0.2rem;
-  border: 0.5vh solid black;
-  background-color: white; 
-} }
-
 .block3button:hover {
-  background-color: black; 
+  background-color: black;
   color: white;
   cursor: pointer;
 }
@@ -65,7 +65,7 @@
 /* .modelSelector {
 
 } */
- 
+
 .modeldropdown {
   position: fixed;
   display: inline-block;
@@ -83,91 +83,93 @@
   color: black;
   right: 20vw;
   margin-right: 16.9rem;
-  position:fixed;
+  position: fixed;
   bottom: 1vw;
   margin-top: 0;
   margin-right: 0;
 }
 
-  .apiconnect-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,0.5);
-    padding: 15px;
-    z-index: 9999;
-  }
+.apiconnect-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  z-index: 9999;
+}
 
-  .closeapiconnect-popupbutton {
-    font-size: 30px;
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    cursor: pointer;
-    width: 40px;
-    border: 2px solid transparent;
-    background-color: transparent;
-    padding: 1vh;
-    padding-right: 5vh;
-    padding-top: 2vh
-  }
-  
+.closeapiconnect-popupbutton {
+  font-size: 30px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  width: 40px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  padding: 1vh;
+  padding-right: 5vh;
+  padding-top: 2vh;
+}
 
+.apiconnect-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 40px;
+}
+.connectapi-button-contiainer {
+  right: 0;
+  position: fixed;
+  padding: 1.5vw;
+  top: 0;
+  display: block;
+}
+.apiconnect {
+  /*API connect button styling*/
+  padding: 1vw;
+  padding-bottom: 0.2vh;
+  padding-top: 0.2vh;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  border: 0.5vh solid black;
+  background-color: white;
 
-  .apiconnect-content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 40px;
-  }
-  .connectapi-button-contiainer {
-    
-    right: 0;
-    position: fixed;
-    padding: 1.5vw;
-    top: 0;
-    display: block;
-  }
-  .apiconnect {
-    /*API connect button styling*/
-    padding: 1vw;
-    padding-bottom: 0.2vh;
-    padding-top: 0.2vh;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: large;
-    border: 0.5vh solid black;
-    background-color: white;
+  border-radius: 10px;
 
-    border-radius: 10px;
+  font-size: 1.85vw;
+}
+.apiconnect:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
 
-    font-size: 1.85vw;
-  }
-  .apiconnect:hover {
-    background-color: black; 
-    color: white;
-    cursor: pointer;
-  }
+.ollamaapiinput {
+  font-family: "Space Mono", monospace;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 17vh;
+  margin-left: 8vh;
+  font-size: large;
+  border-radius: 1vh;
+}
 
-  .ollamaapiinput {
-    font-family: "Space Mono", monospace;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 17vh;
-    margin-left: 8vh;
-    font-size: large;
-    border-radius: 1vh;
-  }
-
-  .ollamaapiinputEnter {
-    width: 2.5rem;
-    
-  }
+.ollamaapiinputEnter {
+  position: fixed;
+  width: 39px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  margin-top: 16.6vh;
+  margin-left: 33.5vh;
+}
