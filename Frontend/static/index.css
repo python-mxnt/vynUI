@@ -133,6 +133,7 @@
     display: block;
   }
   .apiconnect {
+    /*API connect button styling*/
     padding: 1vw;
     padding-bottom: 0.2vh;
     padding-top: 0.2vh;
@@ -143,7 +144,9 @@
     font-size: large;
     border: 0.5vh solid black;
     background-color: white;
-    border-radius: 3vh;
+
+    border-radius: 10px;
+
     font-size: 1.85vw;
   }
   .apiconnect:hover {
