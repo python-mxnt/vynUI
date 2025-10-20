@@ -5,11 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="/Frontend/static/index.css"/>
-    <link rel="icon" href="/favicon.ico" type="image/ico">
+    <link rel="icon" href="/Images/favicon.png" type="image/x-icon">
     <script src="../static/index.js"></script>
     <script src="/Backend/connectAPI.js"></script>
-    <title>vynUI</title>
-</head>
+    <title>vynUI - Home</title>
+</head>   
+
+<nav id="sidebar">
+        <ul>
+            <li>
+                <a class="active" href="index.html">
+                    <span>Home</span>
+                    <img src="/Images/homeicon.svg" alt="home">
+                </a>
+            </li>
+            <li>
+                <a href="dashboard.html">
+                    <span>Dashboard</span>
+                    <img class="Dashboardicon" src="/Images/dashboard.svg" alt="Dashboard">
+                </a>
+            </li>
+            <!-- CHATS WOULD GO IN HERE  -->
+        </ul>
+    </nav>
+
+
 <body>
     <div class="mainmiddle">
 <!-- greeting -->
@@ -43,7 +63,7 @@
         </div>
 
       <div class="block3">
-        <button id="block3button" class="block3button" type="button">
+        <button onclick="viewusage()" id="block3button" class="block3button" type="button">
         <h3 class="block3text">View Usage</h3>
         </button>
       </div>

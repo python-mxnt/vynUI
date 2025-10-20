@@ -173,3 +173,17 @@
   margin-top: 16.6vh;
   margin-left: 33.5vh;
 }
+
+.Dashboardicon {
+  filter: brightness(0);
+}
+
+.active {
+  filter: brightness(0);
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
