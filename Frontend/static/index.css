@@ -178,12 +178,33 @@
   filter: brightness(0);
 }
 
-.active {
+.Homeicon {
   filter: brightness(0);
+  
 }
 
 #sidebar ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+a {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-optical-sizing: auto;
+}
+
+a:hover {
+    background: linear-gradient(to bottom, white, grey);
+    color: black; /* Adjust for contrast */
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a:active {
+    color: #007b83;              /* When clicked */
+    transform: scale(0.98);      /* Pressed-down effect */
 }
