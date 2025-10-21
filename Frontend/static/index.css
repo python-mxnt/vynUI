@@ -29,42 +29,6 @@
   height: 70vh;
 }
 
-.blocks {
-  right: 0;
-  position: fixed;
-  padding: 1.5vw;
-  bottom: 0;
-  display: block;
-
-  .block3text {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.85vw;
-  }
-
-  .block3button {
-    border-radius: 3vh;
-    padding: 1vw;
-    padding-bottom: 0.2vh;
-    padding-top: 0.2vh;
-    border-color: black;
-    border-width: 0.2rem;
-    border: 0.5vh solid black;
-    background-color: white;
-  }
-}
-
-.block3button:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
-}
-
-/* .modelSelector {
-
-} */
 
 .modeldropdown {
   position: fixed;
@@ -187,6 +151,9 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 a {
@@ -194,6 +161,8 @@ a {
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
@@ -207,4 +176,8 @@ a:hover {
 a:active {
     color: #007b83;              /* When clicked */
     transform: scale(0.98);      /* Pressed-down effect */
+}
+
+a:visited {
+  color: black;
 }
