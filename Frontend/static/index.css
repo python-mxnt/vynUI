@@ -181,3 +181,12 @@ a:active {
 a:visited {
   color: black;
 }
+
+#sidebar {
+   float: left; 
+   width: 160px;  
+   padding: 15px 10px 15px 20px; 
+   border-right: 3px solid #000000;
+   border-bottom: 3px solid #000000;
+   min-height: 100vh
+}
